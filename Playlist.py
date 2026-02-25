@@ -55,7 +55,7 @@ def remover_musica():
         indice = int(input("Digite o indice da música que deseja remover: "))
         
         if indice > 0:
-            playlist.pop(indice - 1) #arrumar isto, já que o o indice é mostrado a partir de um, mas não coincide com a posicao na lista, que no caso é 0
+            playlist.pop(indice - 1) 
             print(f"Música {indice} removida!")
         else:
             print("Número inválido!")
@@ -110,4 +110,5 @@ while True:
             print("Saindo...")
             break
         case _:
+
             print("Opção inválida!")
